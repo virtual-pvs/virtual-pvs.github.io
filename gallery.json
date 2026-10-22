@@ -1,5 +1,6 @@
 {
   "repo": "https://github.com/YoussefAljUM6P/virtual_to_real_pvs",
+  "viser_version": "1.1.1",
   "runs": [
     {
       "name": "v2v_fisheye_equidistant",
@@ -13,10 +14,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 130,
-      "final_error": 94.43603515625,
-      "t_err_mm": 3.29905216517397,
-      "r_err_deg": 0.1298231230799743,
-      "plr": 1.2541230613905985,
+      "hold_iterations": 200,
+      "final_error": 0.18847034871578217,
+      "t_err_mm": 0.09594624419115787,
+      "r_err_deg": 0.00495033642460559,
+      "plr": 1.2509165336569368,
       "images": [
         {
           "path": "runs/v2v_fisheye_equidistant/desired_rgb.png",
@@ -40,7 +42,8 @@
         }
       ],
       "recording": "runs/v2v_fisheye_equidistant/recording.viser",
-      "recording_mb": 1.653151,
+      "recording_mb": 1.875797,
+      "plots": "runs/v2v_fisheye_equidistant/plots.html",
       "video": "runs/v2v_fisheye_equidistant/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_equidistant/summary.yaml"
     },
@@ -56,10 +59,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 480,
-      "final_error": 99.7764663696289,
-      "t_err_mm": 3.2970566960768726,
-      "r_err_deg": 0.15371548226942455,
-      "plr": 1.3084977285592019,
+      "hold_iterations": 200,
+      "final_error": 17.319591522216797,
+      "t_err_mm": 1.3391117143504743,
+      "r_err_deg": 0.062856193941565,
+      "plr": 1.3189872928418342,
       "images": [
         {
           "path": "runs/v2v_fisheye_pinhole/desired_rgb.png",
@@ -83,7 +87,8 @@
         }
       ],
       "recording": "runs/v2v_fisheye_pinhole/recording.viser",
-      "recording_mb": 2.190082,
+      "recording_mb": 2.345806,
+      "plots": "runs/v2v_fisheye_pinhole/plots.html",
       "video": "runs/v2v_fisheye_pinhole/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_pinhole/summary.yaml"
     },
@@ -99,10 +104,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 140,
-      "final_error": 98.98316192626953,
-      "t_err_mm": 3.3808125995523,
-      "r_err_deg": 0.1885434319232549,
-      "plr": 1.2285694148021633,
+      "hold_iterations": 200,
+      "final_error": 0.732938826084137,
+      "t_err_mm": 0.246670036327139,
+      "r_err_deg": 0.013587185547279198,
+      "plr": 1.2506749024795687,
       "images": [
         {
           "path": "runs/v2v_fisheye_unified_cs/desired_rgb.png",
@@ -126,7 +132,8 @@
         }
       ],
       "recording": "runs/v2v_fisheye_unified_cs/recording.viser",
-      "recording_mb": 1.667349,
+      "recording_mb": 1.89679,
+      "plots": "runs/v2v_fisheye_unified_cs/plots.html",
       "video": "runs/v2v_fisheye_unified_cs/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_unified_cs/summary.yaml"
     },
@@ -142,10 +149,11 @@
       "converged": false,
       "stop_reason": "plateau",
       "iterations": 645,
+      "hold_iterations": 300,
       "final_error": 298517.0625,
       "t_err_mm": 3916.3582723605464,
       "r_err_deg": 10.417753309525596,
-      "plr": 1.3547390249929954,
+      "plr": 1.452367725582215,
       "images": [
         {
           "path": "runs/paper_v2r_fisheye_unified_ip/desired_rgb.png",
@@ -169,7 +177,8 @@
         }
       ],
       "recording": "runs/paper_v2r_fisheye_unified_ip/recording.viser",
-      "recording_mb": 3.885831,
+      "recording_mb": 5.031819,
+      "plots": "runs/paper_v2r_fisheye_unified_ip/plots.html",
       "video": "runs/paper_v2r_fisheye_unified_ip/servo_dashboard.mp4",
       "summary": "runs/paper_v2r_fisheye_unified_ip/summary.yaml"
     },
@@ -185,10 +194,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 131,
-      "final_error": 94.5759506225586,
-      "t_err_mm": 3.254075935129057,
-      "r_err_deg": 0.13107119862003727,
-      "plr": 1.2553204942444434,
+      "hold_iterations": 200,
+      "final_error": 0.27598774433135986,
+      "t_err_mm": 0.12205941929672305,
+      "r_err_deg": 0.006252405170011638,
+      "plr": 1.252246260996539,
       "images": [
         {
           "path": "runs/v2v_fisheye_unified_ip/desired_rgb.png",
@@ -212,7 +222,8 @@
         }
       ],
       "recording": "runs/v2v_fisheye_unified_ip/recording.viser",
-      "recording_mb": 1.652973,
+      "recording_mb": 1.880505,
+      "plots": "runs/v2v_fisheye_unified_ip/plots.html",
       "video": "runs/v2v_fisheye_unified_ip/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_unified_ip/summary.yaml"
     },
@@ -228,10 +239,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 75,
-      "final_error": 95.45086669921875,
-      "t_err_mm": 2.7252320838348565,
-      "r_err_deg": 0.18142860268725972,
-      "plr": 1.1194328430085254,
+      "hold_iterations": 200,
+      "final_error": 0.02317725121974945,
+      "t_err_mm": 0.022578731051951868,
+      "r_err_deg": 0.0012039395159792769,
+      "plr": 1.1329221471468534,
       "images": [
         {
           "path": "runs/v2v_fisheye_unified_ps/desired_rgb.png",
@@ -255,7 +267,8 @@
         }
       ],
       "recording": "runs/v2v_fisheye_unified_ps/recording.viser",
-      "recording_mb": 1.53078,
+      "recording_mb": 1.754806,
+      "plots": "runs/v2v_fisheye_unified_ps/plots.html",
       "video": "runs/v2v_fisheye_unified_ps/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_unified_ps/summary.yaml"
     },
@@ -271,10 +284,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 291,
-      "final_error": 94.35093688964844,
-      "t_err_mm": 1.9480586781443936,
-      "r_err_deg": 0.06917221883352734,
-      "plr": 2.300055460225367,
+      "hold_iterations": 200,
+      "final_error": 0.015612395480275154,
+      "t_err_mm": 0.00551869972988401,
+      "r_err_deg": 0.0001991398433293338,
+      "plr": 2.3253401190134135,
       "images": [
         {
           "path": "runs/v2v_pinhole_equidistant/desired_rgb.png",
@@ -298,7 +312,8 @@
         }
       ],
       "recording": "runs/v2v_pinhole_equidistant/recording.viser",
-      "recording_mb": 2.366231,
+      "recording_mb": 2.693438,
+      "plots": "runs/v2v_pinhole_equidistant/plots.html",
       "video": "runs/v2v_pinhole_equidistant/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_equidistant/summary.yaml"
     },
@@ -314,10 +329,11 @@
       "converged": false,
       "stop_reason": "plateau",
       "iterations": 1920,
+      "hold_iterations": 300,
       "final_error": 167653.8125,
       "t_err_mm": 1801.7357927533503,
       "r_err_deg": 24.097248214906234,
-      "plr": 1.0175318856609175,
+      "plr": 1.0175305972656994,
       "images": [
         {
           "path": "runs/paper_v2r_pinhole_pinhole/desired_rgb.png",
@@ -341,7 +357,8 @@
         }
       ],
       "recording": "runs/paper_v2r_pinhole_pinhole/recording.viser",
-      "recording_mb": 7.517957,
+      "recording_mb": 7.778479,
+      "plots": "runs/paper_v2r_pinhole_pinhole/plots.html",
       "video": "runs/paper_v2r_pinhole_pinhole/servo_dashboard.mp4",
       "summary": "runs/paper_v2r_pinhole_pinhole/summary.yaml"
     },
@@ -357,10 +374,11 @@
       "converged": false,
       "stop_reason": "plateau",
       "iterations": 2539,
+      "hold_iterations": 300,
       "final_error": 564172.125,
       "t_err_mm": 803.1670665385916,
       "r_err_deg": 23.643005547616248,
-      "plr": 1.1253118011260959,
+      "plr": 1.1144699136541367,
       "images": [
         {
           "path": "runs/v2r_pinhole_flir_image/desired_rgb.png",
@@ -384,7 +402,8 @@
         }
       ],
       "recording": "runs/v2r_pinhole_flir_image/recording.viser",
-      "recording_mb": 10.747119,
+      "recording_mb": 11.88268,
+      "plots": "runs/v2r_pinhole_flir_image/plots.html",
       "video": "runs/v2r_pinhole_flir_image/servo_dashboard.mp4",
       "summary": "runs/v2r_pinhole_flir_image/summary.yaml"
     },
@@ -400,10 +419,11 @@
       "converged": false,
       "stop_reason": "plateau",
       "iterations": 2443,
-      "final_error": 198957.90625,
-      "t_err_mm": 986.0854152942305,
-      "r_err_deg": 34.43345886431935,
-      "plr": 1.0777979034852476,
+      "hold_iterations": 300,
+      "final_error": 198723.75,
+      "t_err_mm": 1028.3679219380567,
+      "r_err_deg": 35.584845921686664,
+      "plr": 1.0770430886316058,
       "images": [
         {
           "path": "runs/v2r_pinhole_flir_image2_view149/desired_rgb.png",
@@ -427,7 +447,8 @@
         }
       ],
       "recording": "runs/v2r_pinhole_flir_image2_view149/recording.viser",
-      "recording_mb": 9.045122,
+      "recording_mb": 9.803542,
+      "plots": "runs/v2r_pinhole_flir_image2_view149/plots.html",
       "video": "runs/v2r_pinhole_flir_image2_view149/servo_dashboard.mp4",
       "summary": "runs/v2r_pinhole_flir_image2_view149/summary.yaml"
     },
@@ -443,10 +464,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 250,
-      "final_error": 96.28733825683594,
-      "t_err_mm": 1.757505923496196,
-      "r_err_deg": 0.06877875326255135,
-      "plr": 2.0824330572294203,
+      "hold_iterations": 200,
+      "final_error": 0.00748834852129221,
+      "t_err_mm": 0.001969482151986093,
+      "r_err_deg": 8.28116426743887e-05,
+      "plr": 2.1046991746812758,
       "images": [
         {
           "path": "runs/v2v_pinhole_pinhole/desired_rgb.png",
@@ -470,7 +492,8 @@
         }
       ],
       "recording": "runs/v2v_pinhole_pinhole/recording.viser",
-      "recording_mb": 2.225862,
+      "recording_mb": 2.547804,
+      "plots": "runs/v2v_pinhole_pinhole/plots.html",
       "video": "runs/v2v_pinhole_pinhole/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_pinhole/summary.yaml"
     },
@@ -486,10 +509,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 389,
-      "final_error": 97.17207336425781,
-      "t_err_mm": 1.8414341853717182,
-      "r_err_deg": 0.07117018432767691,
-      "plr": 1.9201345677914692,
+      "hold_iterations": 200,
+      "final_error": 0.0016536496113985777,
+      "t_err_mm": 0.00015831059127759573,
+      "r_err_deg": 4.00455336570039e-06,
+      "plr": 1.9412432452512647,
       "images": [
         {
           "path": "runs/v2v_pinhole_unified_cs/desired_rgb.png",
@@ -513,7 +537,8 @@
         }
       ],
       "recording": "runs/v2v_pinhole_unified_cs/recording.viser",
-      "recording_mb": 2.761903,
+      "recording_mb": 3.072456,
+      "plots": "runs/v2v_pinhole_unified_cs/plots.html",
       "video": "runs/v2v_pinhole_unified_cs/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_unified_cs/summary.yaml"
     },
@@ -529,10 +554,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 319,
-      "final_error": 95.76712036132812,
-      "t_err_mm": 1.96776909575239,
-      "r_err_deg": 0.06982410158005797,
-      "plr": 2.250106817254971,
+      "hold_iterations": 200,
+      "final_error": 0.024083677679300308,
+      "t_err_mm": 0.00889948600542732,
+      "r_err_deg": 0.0003130335197539549,
+      "plr": 2.2751491610476533,
       "images": [
         {
           "path": "runs/v2v_pinhole_unified_ip/desired_rgb.png",
@@ -556,7 +582,8 @@
         }
       ],
       "recording": "runs/v2v_pinhole_unified_ip/recording.viser",
-      "recording_mb": 2.470873,
+      "recording_mb": 2.795057,
+      "plots": "runs/v2v_pinhole_unified_ip/plots.html",
       "video": "runs/v2v_pinhole_unified_ip/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_unified_ip/summary.yaml"
     },
@@ -572,10 +599,11 @@
       "converged": true,
       "stop_reason": "converged",
       "iterations": 155,
-      "final_error": 93.43272399902344,
-      "t_err_mm": 1.0316207935439714,
-      "r_err_deg": 0.05361455199910607,
-      "plr": 3.1060775756247545,
+      "hold_iterations": 200,
+      "final_error": 0.0077521540224552155,
+      "t_err_mm": 0.0008054828809290913,
+      "r_err_deg": 1.4688877218970437e-05,
+      "plr": 3.122146094142423,
       "images": [
         {
           "path": "runs/v2v_pinhole_unified_ps/desired_rgb.png",
@@ -599,7 +627,8 @@
         }
       ],
       "recording": "runs/v2v_pinhole_unified_ps/recording.viser",
-      "recording_mb": 1.903673,
+      "recording_mb": 2.202792,
+      "plots": "runs/v2v_pinhole_unified_ps/plots.html",
       "video": "runs/v2v_pinhole_unified_ps/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_unified_ps/summary.yaml"
     }

@@ -32,6 +32,8 @@
   .thumbs figcaption { font-size:.72rem; color:var(--muted); text-align:center; padding:2px 0 4px; }
   .viewer { position:relative; aspect-ratio: 16/10; background:#000; }
   .viewer iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .plots iframe { width:100%; height:540px; border:0; border-top:1px solid var(--line); background:#fff; }
+  .hint { margin: 4px 16px 0; font-size:.8rem; color:#777; }
   .video video { width:100%; display:block; background:#000; }
   .video summary { cursor:pointer; color:var(--accent); font-size:.9rem; margin:8px 16px 0; }
   .viewer .placeholder { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#ccc; font-size:.9rem; cursor:pointer; background:
@@ -91,7 +93,9 @@
     const compat = r.compatibility && r.compatibility !== "exact" ? '<span class="badge ' + r.compatibility + '">' + r.compatibility + '</span>' : "";
     const thumbs = (r.images || []).map(i => '<figure><img loading="lazy" src="' + i.path + '" alt="' + i.label + '"><figcaption>' + i.label + '</figcaption></figure>').join("");
     const viewer = r.recording
-      ? '<div class="viewer"><div class="placeholder" data-src="' + VISER + encodeURIComponent(abs(r.recording)) + '">▶ load viser replay (' + fmt(r.recording_mb, 1) + ' MB)</div></div>'
+      ? '<div class="viewer"><div class="placeholder" data-src="' + VISER + encodeURIComponent(abs(r.recording)) + '">▶ load viser replay (' + fmt(r.recording_mb, 1) + ' MB)</div></div>' +
+        '<p class="hint">Replay of the recorded 3-D scene (desired, initial and current frustums; the scene-tree button in the playback bar toggles them). The plots of the live control panel are not recorded; the error and velocity curves of the run load below the replay.</p>' +
+        (r.plots ? '<div class="plots" data-src="' + r.plots + '"></div>' : '')
       : "";
     const video = r.video
       ? '<details class="video"><summary>dashboard video (images, error, velocities, trajectory)</summary><video controls preload="none" src="' + r.video + '"></video></details>'
@@ -107,10 +111,15 @@
         '<div><span>path length ratio</span><br>' + fmt(r.plr) + '</div>' +
       '</div>' +
       '<div class="links">' + (r.recording ? '<a href="' + r.recording + '">recording.viser</a>' : '') +
+        (r.plots ? '<a href="' + r.plots + '">error / velocity plots</a>' : '') +
         (r.video ? '<a href="' + r.video + '">video</a>' : '') +
         (r.summary ? '<a href="' + r.summary + '">summary</a>' : '') + '</div>';
     const ph = el.querySelector(".placeholder");
-    if (ph) ph.onclick = () => { const f = document.createElement("iframe"); f.src = ph.dataset.src; f.allow = "fullscreen"; ph.replaceWith(f); };
+    if (ph) ph.onclick = () => {
+      const f = document.createElement("iframe"); f.src = ph.dataset.src; f.allow = "fullscreen"; ph.replaceWith(f);
+      const plots = el.querySelector(".plots");
+      if (plots && !plots.firstChild) { const g = document.createElement("iframe"); g.src = plots.dataset.src; g.loading = "lazy"; plots.appendChild(g); }
+    };
     return el;
   }
   function render() {
