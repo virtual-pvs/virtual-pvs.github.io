@@ -1,0 +1,615 @@
+{
+  "repo": "https://github.com/YoussefAljUM6P/virtual_to_real_pvs",
+  "runs": [
+    {
+      "name": "v2v_fisheye_equidistant",
+      "title": "Equidistant \u00b7 fisheye",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "fisheye",
+      "feature": "equidistant",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 130,
+      "final_error": 94.43603515625,
+      "t_err_mm": 3.29905216517397,
+      "r_err_deg": 0.1298231230799743,
+      "plr": 1.2541230613905985,
+      "images": [
+        {
+          "path": "runs/v2v_fisheye_equidistant/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_fisheye_equidistant/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_fisheye_equidistant/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_fisheye_equidistant/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_fisheye_equidistant/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_fisheye_equidistant/recording.viser",
+      "recording_mb": 1.653151,
+      "video": "runs/v2v_fisheye_equidistant/servo_dashboard.mp4",
+      "summary": "runs/v2v_fisheye_equidistant/summary.yaml"
+    },
+    {
+      "name": "v2v_fisheye_pinhole",
+      "title": "Pinhole \u00b7 fisheye",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "fisheye",
+      "feature": "pinhole",
+      "compatibility": "mismatched",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 480,
+      "final_error": 99.7764663696289,
+      "t_err_mm": 3.2970566960768726,
+      "r_err_deg": 0.15371548226942455,
+      "plr": 1.3084977285592019,
+      "images": [
+        {
+          "path": "runs/v2v_fisheye_pinhole/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_fisheye_pinhole/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_fisheye_pinhole/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_fisheye_pinhole/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_fisheye_pinhole/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_fisheye_pinhole/recording.viser",
+      "recording_mb": 2.190082,
+      "video": "runs/v2v_fisheye_pinhole/servo_dashboard.mp4",
+      "summary": "runs/v2v_fisheye_pinhole/summary.yaml"
+    },
+    {
+      "name": "v2v_fisheye_unified_cs",
+      "title": "Unified (CS) \u00b7 fisheye",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "fisheye",
+      "feature": "unified_cs",
+      "compatibility": "calibrated",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 140,
+      "final_error": 98.98316192626953,
+      "t_err_mm": 3.3808125995523,
+      "r_err_deg": 0.1885434319232549,
+      "plr": 1.2285694148021633,
+      "images": [
+        {
+          "path": "runs/v2v_fisheye_unified_cs/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_cs/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_cs/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_cs/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_cs/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_fisheye_unified_cs/recording.viser",
+      "recording_mb": 1.667349,
+      "video": "runs/v2v_fisheye_unified_cs/servo_dashboard.mp4",
+      "summary": "runs/v2v_fisheye_unified_cs/summary.yaml"
+    },
+    {
+      "name": "paper_v2r_fisheye_unified_ip",
+      "title": "Unified (IP) \u00b7 fisheye",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "fisheye",
+      "feature": "unified_ip",
+      "compatibility": "calibrated",
+      "kind": "virtual \u2192 real",
+      "desired_image": "fisheye_000000.png",
+      "converged": false,
+      "stop_reason": "plateau",
+      "iterations": 645,
+      "final_error": 298517.0625,
+      "t_err_mm": 3916.3582723605464,
+      "r_err_deg": 10.417753309525596,
+      "plr": 1.3547390249929954,
+      "images": [
+        {
+          "path": "runs/paper_v2r_fisheye_unified_ip/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/paper_v2r_fisheye_unified_ip/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/paper_v2r_fisheye_unified_ip/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/paper_v2r_fisheye_unified_ip/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/paper_v2r_fisheye_unified_ip/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/paper_v2r_fisheye_unified_ip/recording.viser",
+      "recording_mb": 3.885831,
+      "video": "runs/paper_v2r_fisheye_unified_ip/servo_dashboard.mp4",
+      "summary": "runs/paper_v2r_fisheye_unified_ip/summary.yaml"
+    },
+    {
+      "name": "v2v_fisheye_unified_ip",
+      "title": "Unified (IP) \u00b7 fisheye",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "fisheye",
+      "feature": "unified_ip",
+      "compatibility": "calibrated",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 131,
+      "final_error": 94.5759506225586,
+      "t_err_mm": 3.254075935129057,
+      "r_err_deg": 0.13107119862003727,
+      "plr": 1.2553204942444434,
+      "images": [
+        {
+          "path": "runs/v2v_fisheye_unified_ip/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ip/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ip/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ip/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ip/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_fisheye_unified_ip/recording.viser",
+      "recording_mb": 1.652973,
+      "video": "runs/v2v_fisheye_unified_ip/servo_dashboard.mp4",
+      "summary": "runs/v2v_fisheye_unified_ip/summary.yaml"
+    },
+    {
+      "name": "v2v_fisheye_unified_ps",
+      "title": "Unified (PS) \u00b7 fisheye",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "fisheye",
+      "feature": "unified_ps",
+      "compatibility": "calibrated",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 75,
+      "final_error": 95.45086669921875,
+      "t_err_mm": 2.7252320838348565,
+      "r_err_deg": 0.18142860268725972,
+      "plr": 1.1194328430085254,
+      "images": [
+        {
+          "path": "runs/v2v_fisheye_unified_ps/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ps/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ps/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ps/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_fisheye_unified_ps/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_fisheye_unified_ps/recording.viser",
+      "recording_mb": 1.53078,
+      "video": "runs/v2v_fisheye_unified_ps/servo_dashboard.mp4",
+      "summary": "runs/v2v_fisheye_unified_ps/summary.yaml"
+    },
+    {
+      "name": "v2v_pinhole_equidistant",
+      "title": "Equidistant \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "equidistant",
+      "compatibility": "mismatched",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 291,
+      "final_error": 94.35093688964844,
+      "t_err_mm": 1.9480586781443936,
+      "r_err_deg": 0.06917221883352734,
+      "plr": 2.300055460225367,
+      "images": [
+        {
+          "path": "runs/v2v_pinhole_equidistant/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_pinhole_equidistant/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_pinhole_equidistant/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_pinhole_equidistant/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_pinhole_equidistant/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_pinhole_equidistant/recording.viser",
+      "recording_mb": 2.366231,
+      "video": "runs/v2v_pinhole_equidistant/servo_dashboard.mp4",
+      "summary": "runs/v2v_pinhole_equidistant/summary.yaml"
+    },
+    {
+      "name": "paper_v2r_pinhole_pinhole",
+      "title": "Pinhole \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "pinhole",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 real",
+      "desired_image": "flir_image2.png",
+      "converged": false,
+      "stop_reason": "plateau",
+      "iterations": 1920,
+      "final_error": 167653.8125,
+      "t_err_mm": 1801.7357927533503,
+      "r_err_deg": 24.097248214906234,
+      "plr": 1.0175318856609175,
+      "images": [
+        {
+          "path": "runs/paper_v2r_pinhole_pinhole/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/paper_v2r_pinhole_pinhole/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/paper_v2r_pinhole_pinhole/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/paper_v2r_pinhole_pinhole/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/paper_v2r_pinhole_pinhole/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/paper_v2r_pinhole_pinhole/recording.viser",
+      "recording_mb": 7.517957,
+      "video": "runs/paper_v2r_pinhole_pinhole/servo_dashboard.mp4",
+      "summary": "runs/paper_v2r_pinhole_pinhole/summary.yaml"
+    },
+    {
+      "name": "v2r_pinhole_flir_image",
+      "title": "Pinhole \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "pinhole",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 real",
+      "desired_image": "flir_image.png",
+      "converged": false,
+      "stop_reason": "plateau",
+      "iterations": 2539,
+      "final_error": 564172.125,
+      "t_err_mm": 803.1670665385916,
+      "r_err_deg": 23.643005547616248,
+      "plr": 1.1253118011260959,
+      "images": [
+        {
+          "path": "runs/v2r_pinhole_flir_image/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2r_pinhole_flir_image/recording.viser",
+      "recording_mb": 10.747119,
+      "video": "runs/v2r_pinhole_flir_image/servo_dashboard.mp4",
+      "summary": "runs/v2r_pinhole_flir_image/summary.yaml"
+    },
+    {
+      "name": "v2r_pinhole_flir_image2_view149",
+      "title": "Pinhole \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "pinhole",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 real",
+      "desired_image": "flir_image2.png",
+      "converged": false,
+      "stop_reason": "plateau",
+      "iterations": 2443,
+      "final_error": 198957.90625,
+      "t_err_mm": 986.0854152942305,
+      "r_err_deg": 34.43345886431935,
+      "plr": 1.0777979034852476,
+      "images": [
+        {
+          "path": "runs/v2r_pinhole_flir_image2_view149/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image2_view149/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image2_view149/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image2_view149/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2r_pinhole_flir_image2_view149/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2r_pinhole_flir_image2_view149/recording.viser",
+      "recording_mb": 9.045122,
+      "video": "runs/v2r_pinhole_flir_image2_view149/servo_dashboard.mp4",
+      "summary": "runs/v2r_pinhole_flir_image2_view149/summary.yaml"
+    },
+    {
+      "name": "v2v_pinhole_pinhole",
+      "title": "Pinhole \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "pinhole",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 250,
+      "final_error": 96.28733825683594,
+      "t_err_mm": 1.757505923496196,
+      "r_err_deg": 0.06877875326255135,
+      "plr": 2.0824330572294203,
+      "images": [
+        {
+          "path": "runs/v2v_pinhole_pinhole/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_pinhole_pinhole/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_pinhole_pinhole/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_pinhole_pinhole/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_pinhole_pinhole/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_pinhole_pinhole/recording.viser",
+      "recording_mb": 2.225862,
+      "video": "runs/v2v_pinhole_pinhole/servo_dashboard.mp4",
+      "summary": "runs/v2v_pinhole_pinhole/summary.yaml"
+    },
+    {
+      "name": "v2v_pinhole_unified_cs",
+      "title": "Unified (CS) \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "unified_cs",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 389,
+      "final_error": 97.17207336425781,
+      "t_err_mm": 1.8414341853717182,
+      "r_err_deg": 0.07117018432767691,
+      "plr": 1.9201345677914692,
+      "images": [
+        {
+          "path": "runs/v2v_pinhole_unified_cs/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_cs/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_cs/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_cs/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_cs/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_pinhole_unified_cs/recording.viser",
+      "recording_mb": 2.761903,
+      "video": "runs/v2v_pinhole_unified_cs/servo_dashboard.mp4",
+      "summary": "runs/v2v_pinhole_unified_cs/summary.yaml"
+    },
+    {
+      "name": "v2v_pinhole_unified_ip",
+      "title": "Unified (IP) \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "unified_ip",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 319,
+      "final_error": 95.76712036132812,
+      "t_err_mm": 1.96776909575239,
+      "r_err_deg": 0.06982410158005797,
+      "plr": 2.250106817254971,
+      "images": [
+        {
+          "path": "runs/v2v_pinhole_unified_ip/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ip/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ip/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ip/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ip/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_pinhole_unified_ip/recording.viser",
+      "recording_mb": 2.470873,
+      "video": "runs/v2v_pinhole_unified_ip/servo_dashboard.mp4",
+      "summary": "runs/v2v_pinhole_unified_ip/summary.yaml"
+    },
+    {
+      "name": "v2v_pinhole_unified_ps",
+      "title": "Unified (PS) \u00b7 pinhole",
+      "scene": "tsukuba13/output_gsplat_360_v2",
+      "projection": "pinhole",
+      "feature": "unified_ps",
+      "compatibility": "exact",
+      "kind": "virtual \u2192 virtual",
+      "desired_image": null,
+      "converged": true,
+      "stop_reason": "converged",
+      "iterations": 155,
+      "final_error": 93.43272399902344,
+      "t_err_mm": 1.0316207935439714,
+      "r_err_deg": 0.05361455199910607,
+      "plr": 3.1060775756247545,
+      "images": [
+        {
+          "path": "runs/v2v_pinhole_unified_ps/desired_rgb.png",
+          "label": "desired"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ps/initial_rgb.png",
+          "label": "initial"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ps/final_rgb.png",
+          "label": "final"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ps/diff_initial.png",
+          "label": "|initial - desired|"
+        },
+        {
+          "path": "runs/v2v_pinhole_unified_ps/diff_final.png",
+          "label": "|final - desired|"
+        }
+      ],
+      "recording": "runs/v2v_pinhole_unified_ps/recording.viser",
+      "recording_mb": 1.903673,
+      "video": "runs/v2v_pinhole_unified_ps/servo_dashboard.mp4",
+      "summary": "runs/v2v_pinhole_unified_ps/summary.yaml"
+    }
+  ],
+  "trajectories": [
+    {
+      "name": "trajectories_tsukuba13",
+      "title": "Trajectories: trajectories_tsukuba13",
+      "html": "trajectories/trajectories_tsukuba13/trajectories.html",
+      "png": "trajectories/trajectories_tsukuba13/trajectories.png"
+    }
+  ]
+}

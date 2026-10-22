@@ -1,0 +1,108 @@
+{
+  "initial_pose_error": {
+    "translation_m": 0.14999999999999983,
+    "rotation_deg": 7.764130021288712
+  },
+  "runs": {
+    "fisheye/equidistant": {
+      "compatibility": "exact",
+      "converged": true,
+      "iterations": 130,
+      "final_error": 94.43603515625,
+      "t_err_m": 0.0032990521651739702,
+      "r_err_deg": 0.1298231230799743,
+      "plr": 1.2541230613905985,
+      "path_length_m": 0.8014615903676084
+    },
+    "fisheye/unified_ip": {
+      "compatibility": "calibrated",
+      "converged": true,
+      "iterations": 131,
+      "final_error": 94.5759506225586,
+      "t_err_m": 0.003254075935129057,
+      "r_err_deg": 0.13107119862003727,
+      "plr": 1.2553204942444434,
+      "path_length_m": 0.8011962053977171
+    },
+    "fisheye/unified_cs": {
+      "compatibility": "calibrated",
+      "converged": true,
+      "iterations": 140,
+      "final_error": 98.98316192626953,
+      "t_err_m": 0.0033808125995523,
+      "r_err_deg": 0.1885434319232549,
+      "plr": 1.2285694148021633,
+      "path_length_m": 0.8217668279617436
+    },
+    "fisheye/unified_ps": {
+      "compatibility": "calibrated",
+      "converged": true,
+      "iterations": 75,
+      "final_error": 95.45086669921875,
+      "t_err_m": 0.0027252320838348563,
+      "r_err_deg": 0.18142860268725972,
+      "plr": 1.1194328430085254,
+      "path_length_m": 0.8105437552063172
+    },
+    "fisheye/pinhole": {
+      "compatibility": "mismatched",
+      "converged": true,
+      "iterations": 480,
+      "final_error": 99.7764663696289,
+      "t_err_m": 0.0032970566960768724,
+      "r_err_deg": 0.15371548226942455,
+      "plr": 1.3084977285592019,
+      "path_length_m": 0.8373520324247726
+    },
+    "pinhole/pinhole": {
+      "compatibility": "exact",
+      "converged": true,
+      "iterations": 250,
+      "final_error": 96.28733825683594,
+      "t_err_m": 0.001757505923496196,
+      "r_err_deg": 0.06877875326255135,
+      "plr": 2.0824330572294203,
+      "path_length_m": 0.8750884554154738
+    },
+    "pinhole/unified_ip": {
+      "compatibility": "exact",
+      "converged": true,
+      "iterations": 319,
+      "final_error": 95.76712036132812,
+      "t_err_m": 0.00196776909575239,
+      "r_err_deg": 0.06982410158005797,
+      "plr": 2.250106817254971,
+      "path_length_m": 0.9390897300774267
+    },
+    "pinhole/unified_cs": {
+      "compatibility": "exact",
+      "converged": true,
+      "iterations": 389,
+      "final_error": 97.17207336425781,
+      "t_err_m": 0.0018414341853717183,
+      "r_err_deg": 0.07117018432767691,
+      "plr": 1.9201345677914692,
+      "path_length_m": 1.0089248544023683
+    },
+    "pinhole/unified_ps": {
+      "compatibility": "exact",
+      "converged": true,
+      "iterations": 155,
+      "final_error": 93.43272399902344,
+      "t_err_m": 0.0010316207935439714,
+      "r_err_deg": 0.05361455199910607,
+      "plr": 3.1060775756247545,
+      "path_length_m": 0.97175346259414
+    },
+    "pinhole/equidistant": {
+      "compatibility": "mismatched",
+      "converged": true,
+      "iterations": 291,
+      "final_error": 94.35093688964844,
+      "t_err_m": 0.0019480586781443936,
+      "r_err_deg": 0.06917221883352734,
+      "plr": 2.300055460225367,
+      "path_length_m": 0.9324880961913852
+    }
+  }
+}
