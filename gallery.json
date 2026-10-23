@@ -42,7 +42,7 @@
         }
       ],
       "recording": "runs/v2v_fisheye_equidistant/recording.viser",
-      "recording_mb": 1.875797,
+      "recording_mb": 1.875791,
       "plots": "runs/v2v_fisheye_equidistant/plots.html",
       "video": "runs/v2v_fisheye_equidistant/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_equidistant/summary.yaml"
@@ -87,7 +87,7 @@
         }
       ],
       "recording": "runs/v2v_fisheye_pinhole/recording.viser",
-      "recording_mb": 2.345806,
+      "recording_mb": 2.345634,
       "plots": "runs/v2v_fisheye_pinhole/plots.html",
       "video": "runs/v2v_fisheye_pinhole/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_pinhole/summary.yaml"
@@ -132,7 +132,7 @@
         }
       ],
       "recording": "runs/v2v_fisheye_unified_cs/recording.viser",
-      "recording_mb": 1.89679,
+      "recording_mb": 1.896857,
       "plots": "runs/v2v_fisheye_unified_cs/plots.html",
       "video": "runs/v2v_fisheye_unified_cs/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_unified_cs/summary.yaml"
@@ -177,7 +177,7 @@
         }
       ],
       "recording": "runs/paper_v2r_fisheye_unified_ip/recording.viser",
-      "recording_mb": 5.031819,
+      "recording_mb": 5.033039,
       "plots": "runs/paper_v2r_fisheye_unified_ip/plots.html",
       "video": "runs/paper_v2r_fisheye_unified_ip/servo_dashboard.mp4",
       "summary": "runs/paper_v2r_fisheye_unified_ip/summary.yaml"
@@ -222,7 +222,7 @@
         }
       ],
       "recording": "runs/v2v_fisheye_unified_ip/recording.viser",
-      "recording_mb": 1.880505,
+      "recording_mb": 1.88047,
       "plots": "runs/v2v_fisheye_unified_ip/plots.html",
       "video": "runs/v2v_fisheye_unified_ip/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_unified_ip/summary.yaml"
@@ -267,7 +267,7 @@
         }
       ],
       "recording": "runs/v2v_fisheye_unified_ps/recording.viser",
-      "recording_mb": 1.754806,
+      "recording_mb": 1.75479,
       "plots": "runs/v2v_fisheye_unified_ps/plots.html",
       "video": "runs/v2v_fisheye_unified_ps/servo_dashboard.mp4",
       "summary": "runs/v2v_fisheye_unified_ps/summary.yaml"
@@ -312,7 +312,7 @@
         }
       ],
       "recording": "runs/v2v_pinhole_equidistant/recording.viser",
-      "recording_mb": 2.693438,
+      "recording_mb": 2.693227,
       "plots": "runs/v2v_pinhole_equidistant/plots.html",
       "video": "runs/v2v_pinhole_equidistant/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_equidistant/summary.yaml"
@@ -357,7 +357,7 @@
         }
       ],
       "recording": "runs/paper_v2r_pinhole_pinhole/recording.viser",
-      "recording_mb": 7.778479,
+      "recording_mb": 7.778301,
       "plots": "runs/paper_v2r_pinhole_pinhole/plots.html",
       "video": "runs/paper_v2r_pinhole_pinhole/servo_dashboard.mp4",
       "summary": "runs/paper_v2r_pinhole_pinhole/summary.yaml"
@@ -402,7 +402,7 @@
         }
       ],
       "recording": "runs/v2r_pinhole_flir_image/recording.viser",
-      "recording_mb": 11.88268,
+      "recording_mb": 11.882383,
       "plots": "runs/v2r_pinhole_flir_image/plots.html",
       "video": "runs/v2r_pinhole_flir_image/servo_dashboard.mp4",
       "summary": "runs/v2r_pinhole_flir_image/summary.yaml"
@@ -447,7 +447,7 @@
         }
       ],
       "recording": "runs/v2r_pinhole_flir_image2_view149/recording.viser",
-      "recording_mb": 9.803542,
+      "recording_mb": 9.803797,
       "plots": "runs/v2r_pinhole_flir_image2_view149/plots.html",
       "video": "runs/v2r_pinhole_flir_image2_view149/servo_dashboard.mp4",
       "summary": "runs/v2r_pinhole_flir_image2_view149/summary.yaml"
@@ -492,7 +492,7 @@
         }
       ],
       "recording": "runs/v2v_pinhole_pinhole/recording.viser",
-      "recording_mb": 2.547804,
+      "recording_mb": 2.547285,
       "plots": "runs/v2v_pinhole_pinhole/plots.html",
       "video": "runs/v2v_pinhole_pinhole/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_pinhole/summary.yaml"
@@ -537,7 +537,7 @@
         }
       ],
       "recording": "runs/v2v_pinhole_unified_cs/recording.viser",
-      "recording_mb": 3.072456,
+      "recording_mb": 3.072649,
       "plots": "runs/v2v_pinhole_unified_cs/plots.html",
       "video": "runs/v2v_pinhole_unified_cs/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_unified_cs/summary.yaml"
@@ -582,7 +582,7 @@
         }
       ],
       "recording": "runs/v2v_pinhole_unified_ip/recording.viser",
-      "recording_mb": 2.795057,
+      "recording_mb": 2.794041,
       "plots": "runs/v2v_pinhole_unified_ip/plots.html",
       "video": "runs/v2v_pinhole_unified_ip/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_unified_ip/summary.yaml"
@@ -627,7 +627,7 @@
         }
       ],
       "recording": "runs/v2v_pinhole_unified_ps/recording.viser",
-      "recording_mb": 2.202792,
+      "recording_mb": 2.202131,
       "plots": "runs/v2v_pinhole_unified_ps/plots.html",
       "video": "runs/v2v_pinhole_unified_ps/servo_dashboard.mp4",
       "summary": "runs/v2v_pinhole_unified_ps/summary.yaml"
